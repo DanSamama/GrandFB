@@ -1,8 +1,21 @@
+/*Increase font-family of the user*/
 ._3hm{
     font-size: 40px; !important
 }
-#leftCol{
+
+/*Remove the Home button*/
+._398f._398g,
+/*Hide the "friends request" icon*/
+#fbRequestsJewel,
+/*Hide the "settings" button*/
+._398f
+{
     display: none;
+}
+
+/*Increasing the font-size of the commentary*/
+p{
+    font-size: 50px;
 }
 
 ._4-u2._5v6e.cardRightCol._4-u8,
@@ -12,18 +25,26 @@
 {
     display: none;
 }
-#stream_pagelet{
-    width: 2000px;
+/*Get rid of the horizontal scroller*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
-#mainContainer{
-    display: none;
+
+/*Get rid of the left margin of the newsfeed*/
+#contentCol{
+    margin-left: 0 !important;
 }
-.hasLeftCol{
-    margin-left: -1150px;
+
+/*Getting rid of the setting logo*/
+._53rx,
+/*Getting rid of the photo album*/
+._4-h7._4sv0._m,
+/*Getting of choosing to who you want to post*/
+._6a._43_1._3h0d{
+    display: none ;
 }
-._4-h7{
-    font-size: 60px;
-}
-p{
-    font-size: 50px;
-}
+
+/*._5v3q ._4-eo::after{*/
+    /*position: relative !important;*/
+/*}*/
