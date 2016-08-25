@@ -12,8 +12,12 @@
  
   "content_scripts": [{
     "css": ["styles.css"],
-    "js": ["content.js"],
+    "js": ["jquery-2.2.5.min.js","content.js"],
     "matches": ["<all_urls>"]
-  }]
+  }],
+
+  "background": {
+  "scripts": ["background.js"]
+  }
  
 }
