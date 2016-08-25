@@ -1,0 +1,29 @@
+._3hm{
+    font-size: 40px; !important
+}
+#leftCol{
+    display: none;
+}
+._1s4v._26aw._5fo2._27oh,
+._4-u2._5v6e.cardRightCol._4-u8,
+.rhcFooterCopyright, .rhcFooterWrap,
+._4-u2._19ah._2ph_._4-u8,
+.fbChatSidebar.fixed_always._5pr2
+{
+    display: none;
+}
+#stream_pagelet{
+    width: 2000px;
+}
+#mainContainer{
+    display: none;
+}
+.hasLeftCol{
+    margin-left: -1150px;
+}
+._4-h7{
+    font-size: 60px;
+}
+p{
+    font-size: 50px;
+}
